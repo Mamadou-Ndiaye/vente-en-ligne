@@ -1,4 +1,4 @@
-# venteEnLigne
+# jhipster
 
 This application was generated using JHipster 7.0.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.0.1](https://www.jhipster.tech/documentation-archive/v7.0.1).
 
@@ -95,7 +95,7 @@ update src/main/webapp/app/app.module.ts
 
 ### Packaging as jar
 
-To build the final jar and optimize the venteEnLigne application for production, run:
+To build the final jar and optimize the jhipster application for production, run:
 
 ```
 ./mvnw -Pprod clean verify
@@ -135,9 +135,6 @@ Unit tests are run by [Jest][]. They're located in [src/test/javascript/](src/te
 ```
 npm test
 ```
-
-UI end-to-end tests are powered by [Protractor][], which is built on top of WebDriverJS. They're located in [src/test/javascript/e2e](src/test/javascript/e2e)
-and can be run by starting Spring Boot in one terminal (`./mvnw spring-boot:run`) and running the tests (`npm run e2e`) in a second one.
 
 For more information, refer to the [Running tests page][].
 
