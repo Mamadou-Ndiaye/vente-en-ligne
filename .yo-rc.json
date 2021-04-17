@@ -43,7 +43,8 @@
     "clientTheme": "none",
     "clientThemeVariant": "",
     "reactive": false,
-    "entities": []
+    "entities": ["Category", "Product", "Customer", "Address", "WishList"],
+    "lastLiquibaseTimestamp": 1618671864000
   },
   "git-provider": "GitHub",
   "git-company": "Mamadou-Ndiaye",
